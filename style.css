@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "lato", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-part {
+    width: 33.4%;
+    height: 100%;
+    background-image: url("christian-wiediger-ssKEI4HRRtI-unsplash.jpg");
+    background-size: cover;
+}
+
+.right-part {
+    width: 66.6%;
+    height: 100%;
+    background: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    padding: 4rem;
+}
+
+.info > span {
+    width: 100%;
+}
+
+.info > .warning {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.sign-up {
+    /* width: 100%; */
+    height: 50%;
+    background-color: rgba(134, 193, 211, 0.514);
+    margin: 0 4rem;
+    border-radius: 20px;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.sign-up:hover {
+    box-shadow: 0 0 20px #979797;
+
+}
+
+.form {
+    height: 75%;
+    display: grid;
+}
+
+.account {
+    height: 25%;
+}
